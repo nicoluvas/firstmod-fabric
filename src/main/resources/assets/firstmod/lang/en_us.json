@@ -1,4 +1,9 @@
 {
   "item.firstmod.pink_thing":"Pink Marvelous Thing",
-  "item.firstmod.raw_pink_thing":"Raw Pink Thing"
+  "item.firstmod.raw_pink_thing":"Raw Pink Thing",
+  "item.firstmod.pink_thing_block":"Pink Thing Pack",
+  "item.firstmod.raw_pink_thing_block":"Raw Pink Thing Pack",
+
+  "block.firstmod.pink_thing_block": "Pink Thing Pack",
+  "block.firstmod.raw_pink_thing_block": "Raw Pink Thing Pack"
 }
