@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mura.firstmod.Firstmod"
+			"net.mura.firstmod.FirstMod"
 		],
 		"fabric-datagen": [
-			"net.mura.firstmod.FirstmodDataGenerator"
+			"net.mura.firstmod.FirstModDataGenerator"
 		],
 		"client": [
 			"net.mura.firstmod.FirstModClient"
