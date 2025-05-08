@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "${version}",
+	"name": "firstmod",
+	"description": "First mod to future projects",
+	"authors": [
+		"Mura"
+	],
+	"contact": {
+		"homepage": "https://nicoluvas.vercel.app/",
+		"sources": "https://github.com/nicoluvas/first-fabric-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/firstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mura.firstmod.Firstmod"
+		],
+		"fabric-datagen": [
+			"net.mura.firstmod.FirstmodDataGenerator"
+		],
+		"client": [
+			"net.mura.firstmod.FirstModClient"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
